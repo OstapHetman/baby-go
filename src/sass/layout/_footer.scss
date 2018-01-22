@@ -1,15 +1,17 @@
 $contactLinksColor: #ffa800;
 $buttonBg: #ffa800;
 footer {
-    min-height: 225px;
+    min-height: 255px;
     background-image: url(../img/footer/background.png);
     @include background;
     img {
         max-width: 80%;
     }
-    button {
+    button.btn {
         background-color: $buttonBg;
         @include button;
+        font-weight: 600;
+        text-transform: initial;
     }
     ul {
         list-style: none;
