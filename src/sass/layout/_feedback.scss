@@ -1,0 +1,33 @@
+$textColor: #333;
+$headerColor:#f5a841;
+$carouselIndicators: #aeaeae;
+$carouselIndicatorsActive: #dcdcdc;
+#feedback {
+    background-image: url(../img/feedback/background.png);
+    @include background;
+    min-height: 600px;
+    font-style: italic;
+    h1 {
+        font-size: 67px;
+        color: $headerColor;
+    }
+    .carousel-indicators {
+        li {
+            background-color: $carouselIndicators
+        }
+        li.active {
+            background-color: $carouselIndicatorsActive;
+        }
+    }
+    .carousel-item {
+        .carousel-caption {
+            position: static;
+            max-width: 60%;
+            p {
+                color: $textColor;
+                font-size: 25px;
+                text-align: center;
+            }
+        }
+    }
+}
