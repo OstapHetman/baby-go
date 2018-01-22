@@ -59,5 +59,16 @@ header .right-side {
     color: #f5a841;
     font-size: 33px; }
 
+#contacts {
+  font-style: italic; }
+  #contacts h1 {
+    font-size: 67px;
+    color: #f5a841; }
+  #contacts .street {
+    height: 100%; }
+    #contacts .street h5 {
+      font-size: 56px;
+      color: #aaabab; }
+
 body {
   font-family: 'Conduit' !important; }

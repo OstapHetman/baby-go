@@ -1,0 +1,16 @@
+$headerColor:#f5a841;
+$contactColor: #aaabab;
+#contacts {
+    font-style: italic;
+    h1 {
+        font-size: 67px;
+        color: $headerColor;
+    }
+    .street {
+        height: 100%;
+        h5 {
+            font-size: 56px;
+            color: $contactColor;
+        }
+    }
+}
