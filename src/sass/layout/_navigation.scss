@@ -4,6 +4,9 @@ nav {
     min-height: 185px;
     background-image: url(../img/nav/background.png);
     @include background;
+    .mobile-logo {
+        display: none;
+    }
     ul {
         a.nav-link {
             color: $menuItemsColor;

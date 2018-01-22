@@ -3,6 +3,11 @@ $descriptionTextColor: #333333;
 $formBg: #abf2fc;
 $buttonBg: #f5a841;
 header {
+    .baby-image-block {
+        position: relative;
+        top: 6%;
+        z-index: -1;
+    }
     .right-side {
         font-style: italic;
         .head-text {
