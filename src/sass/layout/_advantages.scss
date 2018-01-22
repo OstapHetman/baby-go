@@ -1,0 +1,23 @@
+$mainTextColor: #f5a841;
+#advantages {
+    min-height: 660px;
+    background-image: url(../img/advantages/background.png);
+    @include background;
+    font-style: italic;
+    h1 {
+        color: $mainTextColor;
+        font-size: 67px;
+    }
+    h4 {
+        font-size: 30px;
+        color: $mainTextColor;
+    }
+    h5 {
+        font-size: 21px;
+    }
+    a {
+        font-size: 28px;
+        text-decoration: underline;
+        color: $mainTextColor;
+    }
+}

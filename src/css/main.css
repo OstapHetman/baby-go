@@ -59,6 +59,30 @@ header .right-side {
     color: #f5a841;
     font-size: 33px; }
 
+#advantages {
+  min-height: 660px;
+  background-image: url(../img/advantages/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: center center;
+  font-style: italic; }
+  #advantages h1 {
+    color: #f5a841;
+    font-size: 67px; }
+  #advantages h4 {
+    font-size: 30px;
+    color: #f5a841; }
+  #advantages h5 {
+    font-size: 21px; }
+  #advantages a {
+    font-size: 28px;
+    text-decoration: underline;
+    color: #f5a841; }
+
 #contacts {
   font-style: italic; }
   #contacts h1 {
