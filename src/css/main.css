@@ -92,6 +92,39 @@ header .right-side {
     text-decoration: underline;
     color: #f5a841; }
 
+#details {
+  font-style: italic; }
+  #details h1 {
+    font-size: 67px;
+    color: #f5a841; }
+  #details img {
+    max-width: 570px; }
+  #details img.list-image {
+    max-width: 85%; }
+  #details ul li {
+    font-size: 20px; }
+    #details ul li span {
+      color: #f5a841; }
+
+#product {
+  font-style: italic; }
+  #product h1 {
+    font-size: 67px;
+    color: #f5a841; }
+  #product a {
+    color: #fff;
+    background-color: #f5a841;
+    font-size: 25px;
+    width: 100%;
+    display: block;
+    text-align: center; }
+    #product a:hover {
+      text-decoration: none; }
+    #product a.active {
+      color: #000;
+      text-decoration: underline;
+      background-color: unset; }
+
 #we-work {
   font-style: italic; }
   #we-work h1 {
@@ -146,10 +179,16 @@ header .right-side {
   #feedback h1 {
     font-size: 67px;
     color: #f5a841; }
-  #feedback .carousel-indicators li {
-    background-color: #aeaeae; }
-  #feedback .carousel-indicators li.active {
-    background-color: #dcdcdc; }
+  #feedback .carousel-indicators .active {
+    background-color: unset !important; }
+  #feedback .carousel-indicators i {
+    color: #aeaeae; }
+  #feedback .carousel-indicators i.active {
+    color: #dcdcdc; }
+  #feedback .carousel-control-prev i,
+  #feedback .carousel-control-next i {
+    font-size: 100px;
+    color: #dcdcdc; }
   #feedback .carousel-item .carousel-caption {
     position: static;
     max-width: 60%; }

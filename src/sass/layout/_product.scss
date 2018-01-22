@@ -1,0 +1,24 @@
+$headerColor:#f5a841;
+#product {
+    font-style: italic;
+    h1 {
+        font-size: 67px;
+        color: $headerColor;
+    }
+    a {
+        color: #fff;
+        background-color: $headerColor;
+        font-size: 25px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        &:hover {
+            text-decoration: none;
+        }
+        &.active {
+            color: #000;
+            text-decoration: underline;
+            background-color: unset;
+        }
+    }
+}

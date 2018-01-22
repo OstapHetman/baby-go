@@ -11,12 +11,22 @@ $carouselIndicatorsActive: #dcdcdc;
         font-size: 67px;
         color: $headerColor;
     }
+    .carousel-indicators .active {
+        background-color: unset !important;
+    }
     .carousel-indicators {
-        li {
-            background-color: $carouselIndicators
+        i {
+            color: $carouselIndicators
         }
-        li.active {
-            background-color: $carouselIndicatorsActive;
+        i.active {
+            color: $carouselIndicatorsActive;
+        }
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        i {
+            font-size: 100px;
+            color: #dcdcdc;
         }
     }
     .carousel-item {
