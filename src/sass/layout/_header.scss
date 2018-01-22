@@ -1,0 +1,56 @@
+$mainTextColor: #f5a841;
+$descriptionTextColor: #333333;
+$formBg: #abf2fc;
+$buttonBg: #f5a841;
+header {
+    .right-side {
+        font-style: italic;
+        .head-text {
+            h2 {
+                color: $mainTextColor;
+                font-size: 87px;
+            }
+            h3 {
+                font-size: 55px;
+            }
+        }
+        .price {
+            font-size: 40px;
+            .line-through {
+                text-decoration: line-through;
+                color: $mainTextColor;
+            }
+            span {
+                color: $mainTextColor;
+            }
+        }
+        form {
+            background-color: $formBg;
+            input {
+                border-radius: 0;
+                border: 1px #fff solid;
+                &::placeholder {
+                    font-size: 13px;
+                    color: $descriptionTextColor;
+                }
+            }
+            button {
+                background-color: $buttonBg;
+                width: 100%;
+                border-radius: 0;
+                text-transform: uppercase;
+                font-size: 14px;
+                color: #fff;
+            }
+        }
+        .under-form {
+            h3 {
+                color: $mainTextColor;
+                font-size: 33px;
+            }
+            .youtube-block {
+                h5 {}
+            }
+        }
+    }
+}

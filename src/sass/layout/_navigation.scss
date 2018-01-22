@@ -3,13 +3,7 @@ $menuItemsColor: #333333;
 nav {
     min-height: 185px;
     background-image: url(../img/nav/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-position: center center;
+    @include background;
     ul {
         a.nav-link {
             color: $menuItemsColor;

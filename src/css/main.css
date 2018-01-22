@@ -26,5 +26,38 @@ nav {
       color: #ffa800;
       font-style: italic; }
 
+header .right-side {
+  font-style: italic; }
+  header .right-side .head-text h2 {
+    color: #f5a841;
+    font-size: 87px; }
+  header .right-side .head-text h3 {
+    font-size: 55px; }
+  header .right-side .price {
+    font-size: 40px; }
+    header .right-side .price .line-through {
+      text-decoration: line-through;
+      color: #f5a841; }
+    header .right-side .price span {
+      color: #f5a841; }
+  header .right-side form {
+    background-color: #abf2fc; }
+    header .right-side form input {
+      border-radius: 0;
+      border: 1px #fff solid; }
+      header .right-side form input::placeholder {
+        font-size: 13px;
+        color: #333333; }
+    header .right-side form button {
+      background-color: #f5a841;
+      width: 100%;
+      border-radius: 0;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #fff; }
+  header .right-side .under-form h3 {
+    color: #f5a841;
+    font-size: 33px; }
+
 body {
   font-family: 'Conduit' !important; }
