@@ -51,7 +51,7 @@ header .right-side {
     header .right-side form button {
       background-color: #f5a841;
       width: 100%;
-      border-radius: 0;
+      border-radius: 0 !important;
       text-transform: uppercase;
       font-size: 14px;
       color: #fff; }
@@ -69,6 +69,33 @@ header .right-side {
     #contacts .street h5 {
       font-size: 56px;
       color: #aaabab; }
+
+footer {
+  min-height: 225px;
+  background-image: url(../img/footer/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: center center; }
+  footer img {
+    max-width: 80%; }
+  footer button {
+    background-color: #ffa800;
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff; }
+  footer ul {
+    list-style: none; }
+    footer ul li:first-child {
+      font-size: 25px; }
+    footer ul li {
+      font-size: 20px;
+      color: #ffa800;
+      font-style: italic; }
 
 body {
   font-family: 'Conduit' !important; }

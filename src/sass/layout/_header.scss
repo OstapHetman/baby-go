@@ -37,10 +37,7 @@ header {
             button {
                 background-color: $buttonBg;
                 width: 100%;
-                border-radius: 0;
-                text-transform: uppercase;
-                font-size: 14px;
-                color: #fff;
+                @include button;
             }
         }
         .under-form {

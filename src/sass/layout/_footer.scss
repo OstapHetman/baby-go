@@ -1,0 +1,25 @@
+$contactLinksColor: #ffa800;
+$buttonBg: #ffa800;
+footer {
+    min-height: 225px;
+    background-image: url(../img/footer/background.png);
+    @include background;
+    img {
+        max-width: 80%;
+    }
+    button {
+        background-color: $buttonBg;
+        @include button;
+    }
+    ul {
+        list-style: none;
+        li:first-child {
+            font-size: 25px;
+        }
+        li {
+            font-size: 20px;
+            color: $contactLinksColor;
+            font-style: italic;
+        }
+    }
+}
