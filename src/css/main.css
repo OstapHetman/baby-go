@@ -108,10 +108,29 @@ header .right-side {
 
 #product {
   font-style: italic; }
+  #product .item {
+    box-shadow: 0 0 5px #f4f4f4;
+    max-width: 85%;
+    margin: 0 auto; }
   #product h1 {
     font-size: 67px;
     color: #f5a841; }
+  #product img {
+    max-width: 255px;
+    display: block;
+    margin: 0 auto; }
+  #product h2,
+  #product small,
+  #product p {
+    font-style: normal; }
+  #product h2 {
+    color: #333333;
+    font-size: 36px; }
+  #product p {
+    font-size: 36px;
+    color: #ffa800; }
   #product a {
+    font-style: normal;
     color: #fff;
     background-color: #f5a841;
     font-size: 25px;
@@ -124,6 +143,17 @@ header .right-side {
       color: #000;
       text-decoration: underline;
       background-color: unset; }
+    #product a.get {
+      background-color: #ffef50;
+      color: #1f1e16;
+      width: 50%;
+      margin: 0 auto;
+      border-radius: 8px; }
+    #product a.view-more {
+      background-color: unset;
+      color: #ffa800;
+      text-decoration: underline;
+      font-size: 20px; }
 
 #we-work {
   font-style: italic; }

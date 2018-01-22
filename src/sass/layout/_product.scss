@@ -1,11 +1,39 @@
 $headerColor:#f5a841;
+$viewMore: #ffef50;
+$priceColor: #ffa800;
+$textColor: #1f1e16;
+$productName: #333333;
 #product {
     font-style: italic;
+    .item {
+        box-shadow: 0 0 5px #f4f4f4;
+        max-width: 85%;
+        margin: 0 auto;
+    }
     h1 {
         font-size: 67px;
         color: $headerColor;
     }
+    img {
+        max-width: 255px;
+        display: block;
+        margin: 0 auto;
+    }
+    h2,
+    small,
+    p {
+        font-style: normal;
+    }
+    h2 {
+        color: $productName;
+        font-size: 36px;
+    }
+    p {
+        font-size: 36px;
+        color: $priceColor;
+    }
     a {
+        font-style: normal;
         color: #fff;
         background-color: $headerColor;
         font-size: 25px;
@@ -19,6 +47,19 @@ $headerColor:#f5a841;
             color: #000;
             text-decoration: underline;
             background-color: unset;
+        }
+        &.get {
+            background-color: $viewMore;
+            color: $textColor;
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+        &.view-more {
+            background-color: unset;
+            color: $priceColor;
+            text-decoration: underline;
+            font-size: 20px;
         }
     }
 }
