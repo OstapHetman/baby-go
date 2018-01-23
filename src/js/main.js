@@ -1,7 +1,7 @@
 jQuery(function() {
     jQuery('.showSingle').click(function() {
-        $(".active").removeClass("active");
-        jQuery($(this).addClass("active"));
+        $(".activeted").removeClass("activeted");
+        jQuery($(this).addClass("activeted"));
         jQuery('.target').slideUp();
         jQuery('.target').hide();
         jQuery('#div' + $(this).attr('target')).css("display", "flex")

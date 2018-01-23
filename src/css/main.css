@@ -144,7 +144,7 @@ header .right-side {
     text-align: center; }
     #product a:hover {
       text-decoration: none; }
-    #product a.active {
+    #product a.activeted {
       color: #000;
       text-decoration: underline;
       background-color: unset; }
