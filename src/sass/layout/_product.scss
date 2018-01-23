@@ -5,14 +5,22 @@ $textColor: #1f1e16;
 $productName: #333333;
 #product {
     font-style: italic;
+    .black-and-white {
+        width: unset;
+        cursor: default;
+    }
     .target {
         display: none;
     }
-    .target#div1 {
+    .target1 {
+        display: none;
+    }
+    .target#div1,
+    .target#div6 {
         display: flex;
     }
     .item {
-        box-shadow: 0 0 5px #f4f4f4;
+        box-shadow: 0 0 5px #D3D3D3;
         max-width: 85%;
         margin: 0 auto;
     }
@@ -30,6 +38,10 @@ $productName: #333333;
     p {
         font-style: normal;
     }
+    small {
+        margin-bottom: 1rem;
+        display: block;
+    }
     h2 {
         color: $productName;
         font-size: 36px;
@@ -37,10 +49,10 @@ $productName: #333333;
     p {
         font-size: 36px;
         color: $priceColor;
+        margin-bottom: 0;
     }
     a {
         cursor: pointer;
-        font-style: normal;
         color: #fff;
         background-color: $headerColor;
         font-size: 25px;
@@ -55,13 +67,21 @@ $productName: #333333;
             text-decoration: underline;
             background-color: unset;
         }
+        &.activeted1 {
+            color: #000;
+            text-decoration: underline;
+            background-color: unset;
+        }
         &.get {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-size: 19px;
+            text-transform: uppercase;
             background-color: $viewMore;
             color: $textColor;
             width: 40%;
             margin: 0 auto;
-            border-radius: 8px;
-            padding-bottom: 3px;
+            border-radius: 5px;
         }
         &.view-more {
             background-color: unset;
