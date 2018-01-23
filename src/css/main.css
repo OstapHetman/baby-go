@@ -108,6 +108,10 @@ header .right-side {
 
 #product {
   font-style: italic; }
+  #product .target {
+    display: none; }
+  #product .target#div1 {
+    display: flex; }
   #product .item {
     box-shadow: 0 0 5px #f4f4f4;
     max-width: 85%;
@@ -130,6 +134,7 @@ header .right-side {
     font-size: 36px;
     color: #ffa800; }
   #product a {
+    cursor: pointer;
     font-style: normal;
     color: #fff;
     background-color: #f5a841;
@@ -146,9 +151,10 @@ header .right-side {
     #product a.get {
       background-color: #ffef50;
       color: #1f1e16;
-      width: 50%;
+      width: 40%;
       margin: 0 auto;
-      border-radius: 8px; }
+      border-radius: 8px;
+      padding-bottom: 3px; }
     #product a.view-more {
       background-color: unset;
       color: #ffa800;

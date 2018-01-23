@@ -5,6 +5,12 @@ $textColor: #1f1e16;
 $productName: #333333;
 #product {
     font-style: italic;
+    .target {
+        display: none;
+    }
+    .target#div1 {
+        display: flex;
+    }
     .item {
         box-shadow: 0 0 5px #f4f4f4;
         max-width: 85%;
@@ -33,6 +39,7 @@ $productName: #333333;
         color: $priceColor;
     }
     a {
+        cursor: pointer;
         font-style: normal;
         color: #fff;
         background-color: $headerColor;
@@ -51,9 +58,10 @@ $productName: #333333;
         &.get {
             background-color: $viewMore;
             color: $textColor;
-            width: 50%;
+            width: 40%;
             margin: 0 auto;
             border-radius: 8px;
+            padding-bottom: 3px;
         }
         &.view-more {
             background-color: unset;
