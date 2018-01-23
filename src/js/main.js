@@ -28,4 +28,12 @@ jQuery(function() {
         jQuery('.target3').hide();
         jQuery('#div' + $(this).attr('target')).css("display", "flex")
     });
+
+    jQuery('.showSingle4').click(function() {
+        $(".activeted4").removeClass("activeted4");
+        jQuery($(this).addClass("activeted4"));
+        jQuery('.target4').slideUp();
+        jQuery('.target4').hide();
+        jQuery('#div' + $(this).attr('target')).css("display", "flex")
+    });
 });

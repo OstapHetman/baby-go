@@ -193,6 +193,10 @@ header .right-side {
   #accessories h1 {
     color: #f5a841;
     font-size: 67px; }
+  #accessories .target4#div20 {
+    display: flex; }
+  #accessories .target4 {
+    display: none; }
   #accessories .item {
     box-shadow: 0 0 5px #D3D3D3;
     max-width: 100%;
@@ -214,6 +218,8 @@ header .right-side {
     font-size: 36px;
     color: #ffa800;
     margin-bottom: 0; }
+  #accessories a:hover {
+    text-decoration: none; }
   #accessories a.showSingle4 {
     cursor: pointer;
     color: #fff;
@@ -245,12 +251,12 @@ header .right-side {
     display: block; }
   #accessories img {
     max-width: 65%; }
-  #accessories #carousel-accessories .fa {
+  #accessories .carousel-accessories .fa {
     font-size: 100px;
     color: #f5a841; }
-  #accessories #carousel-accessories .carousel-control-prev {
+  #accessories .carousel-accessories .carousel-control-prev {
     left: -10%; }
-  #accessories #carousel-accessories .carousel-control-next {
+  #accessories .carousel-accessories .carousel-control-next {
     right: -10%; }
 
 #we-work {

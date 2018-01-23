@@ -9,6 +9,12 @@ $productName: #333333;
         color: $mainTextColor;
         font-size: 67px;
     }
+    .target4#div20 {
+        display: flex;
+    }
+    .target4 {
+        display: none;
+    }
     .item {
         box-shadow: 0 0 5px #D3D3D3;
         max-width: 100%;
@@ -37,6 +43,9 @@ $productName: #333333;
         margin-bottom: 0;
     }
     a {
+        &:hover {
+            text-decoration: none;
+        }
         &.showSingle4 {
             cursor: pointer;
             color: #fff;
@@ -74,7 +83,7 @@ $productName: #333333;
     img {
         max-width: 65%;
     }
-    #carousel-accessories {
+    .carousel-accessories {
         .fa {
             font-size: 100px;
             color: $mainTextColor;
