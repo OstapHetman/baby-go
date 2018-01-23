@@ -111,12 +111,15 @@ header .right-side {
   #product .black-and-white {
     width: unset;
     cursor: default; }
-  #product .target {
-    display: none; }
-  #product .target1 {
+  #product .target,
+  #product .target1,
+  #product .target2,
+  #product .target3 {
     display: none; }
   #product .target#div1,
-  #product .target#div6 {
+  #product .target1#div6,
+  #product .target2#div11,
+  #product .target3#div13 {
     display: flex; }
   #product .item {
     box-shadow: 0 0 5px #D3D3D3;
@@ -158,6 +161,14 @@ header .right-side {
       text-decoration: underline;
       background-color: unset; }
     #product a.activeted1 {
+      color: #000;
+      text-decoration: underline;
+      background-color: unset; }
+    #product a.activeted2 {
+      color: #000;
+      text-decoration: underline;
+      background-color: unset; }
+    #product a.activeted3 {
       color: #000;
       text-decoration: underline;
       background-color: unset; }
