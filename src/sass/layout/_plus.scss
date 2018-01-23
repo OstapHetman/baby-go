@@ -1,0 +1,25 @@
+$headerColor:#f5a841;
+#plus {
+    font-style: italic;
+    h1 {
+        font-size: 67px;
+        color: $headerColor;
+    }
+    h4 {
+        font-size: 18px;
+        font-style: normal;
+    }
+    p {
+        font-size: 14px;
+        font-style: normal;
+        &:before {
+            content: '';
+            height: 2px;
+            background-color: #33ccff;
+            position: absolute;
+            left: -23%;
+            width: 20%;
+            margin-top: 12%;
+        }
+    }
+}

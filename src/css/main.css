@@ -228,6 +228,26 @@ header .right-side {
     #we-work .right-side .under-form .youtube-block {
       color: #333333; }
 
+#plus {
+  font-style: italic; }
+  #plus h1 {
+    font-size: 67px;
+    color: #f5a841; }
+  #plus h4 {
+    font-size: 18px;
+    font-style: normal; }
+  #plus p {
+    font-size: 14px;
+    font-style: normal; }
+    #plus p:before {
+      content: '';
+      height: 2px;
+      background-color: #33ccff;
+      position: absolute;
+      left: -23%;
+      width: 20%;
+      margin-top: 12%; }
+
 #feedback {
   background-image: url(../img/feedback/background.png);
   background-repeat: no-repeat;
