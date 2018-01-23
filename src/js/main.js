@@ -1,4 +1,5 @@
 jQuery(function() {
+
     jQuery('.showSingle').click(function() {
         $(".activeted").removeClass("activeted");
         jQuery($(this).addClass("activeted"));

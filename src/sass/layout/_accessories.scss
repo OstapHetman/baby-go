@@ -1,0 +1,89 @@
+$mainTextColor: #f5a841;
+$viewMore: #ffef50;
+$priceColor: #ffa800;
+$textColor: #1f1e16;
+$productName: #333333;
+#accessories {
+    font-style: italic;
+    h1 {
+        color: $mainTextColor;
+        font-size: 67px;
+    }
+    .item {
+        box-shadow: 0 0 5px #D3D3D3;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 67px;
+        color: $headerColor;
+    }
+    h2,
+    small,
+    p {
+        font-style: normal;
+    }
+    small {
+        margin-bottom: 1rem;
+        display: block;
+    }
+    h2 {
+        color: $productName;
+        font-size: 27px;
+    }
+    p {
+        font-size: 36px;
+        color: $priceColor;
+        margin-bottom: 0;
+    }
+    a {
+        &.showSingle4 {
+            cursor: pointer;
+            color: #fff;
+            background-color: $mainTextColor;
+            font-size: 25px;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        &.activeted4 {
+            color: #000;
+            text-decoration: underline;
+            background-color: unset;
+        }
+        &.get {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-size: 19px;
+            text-transform: uppercase;
+            background-color: $viewMore;
+            color: $textColor;
+            width: 50%;
+            margin: 0 auto;
+            border-radius: 5px;
+            display: block;
+        }
+        &.view-more {
+            background-color: unset;
+            color: $priceColor;
+            text-decoration: underline;
+            font-size: 20px;
+            display: block;
+        }
+    }
+    img {
+        max-width: 65%;
+    }
+    #carousel-accessories {
+        .fa {
+            font-size: 100px;
+            color: $mainTextColor;
+        }
+        .carousel-control-prev {
+            left: -10%;
+        }
+        .carousel-control-next {
+            right: -10%;
+        }
+    }
+}

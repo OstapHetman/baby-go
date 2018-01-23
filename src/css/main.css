@@ -188,6 +188,71 @@ header .right-side {
       text-decoration: underline;
       font-size: 20px; }
 
+#accessories {
+  font-style: italic; }
+  #accessories h1 {
+    color: #f5a841;
+    font-size: 67px; }
+  #accessories .item {
+    box-shadow: 0 0 5px #D3D3D3;
+    max-width: 100%;
+    margin: 0 auto; }
+  #accessories h1 {
+    font-size: 67px;
+    color: #f5a841; }
+  #accessories h2,
+  #accessories small,
+  #accessories p {
+    font-style: normal; }
+  #accessories small {
+    margin-bottom: 1rem;
+    display: block; }
+  #accessories h2 {
+    color: #333333;
+    font-size: 27px; }
+  #accessories p {
+    font-size: 36px;
+    color: #ffa800;
+    margin-bottom: 0; }
+  #accessories a.showSingle4 {
+    cursor: pointer;
+    color: #fff;
+    background-color: #f5a841;
+    font-size: 25px;
+    width: 100%;
+    display: block;
+    text-align: center; }
+  #accessories a.activeted4 {
+    color: #000;
+    text-decoration: underline;
+    background-color: unset; }
+  #accessories a.get {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: #ffef50;
+    color: #1f1e16;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block; }
+  #accessories a.view-more {
+    background-color: unset;
+    color: #ffa800;
+    text-decoration: underline;
+    font-size: 20px;
+    display: block; }
+  #accessories img {
+    max-width: 65%; }
+  #accessories #carousel-accessories .fa {
+    font-size: 100px;
+    color: #f5a841; }
+  #accessories #carousel-accessories .carousel-control-prev {
+    left: -10%; }
+  #accessories #carousel-accessories .carousel-control-next {
+    right: -10%; }
+
 #we-work {
   font-style: italic; }
   #we-work h1 {
