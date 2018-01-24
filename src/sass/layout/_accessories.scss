@@ -94,5 +94,33 @@ $productName: #333333;
         .carousel-control-next {
             right: -10%;
         }
+        .carousel-item {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #accessories {
+        h1 {
+            font-size: 36px;
+        }
+        a.showSingle4 {
+            font-size: 18px;
+        }
+        .carousel-accessories {
+            .carousel-item {
+                flex-wrap: wrap;
+            }
+        }
+        img {
+            max-width: 50%;
+        }
+        .carousel-accessories .carousel-control-next {
+            right: 0;
+        }
+        .carousel-accessories .carousel-control-prev {
+            left: 0;
+        }
     }
 }

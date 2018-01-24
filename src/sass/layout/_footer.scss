@@ -6,6 +6,8 @@ footer {
     @include background;
     img {
         max-width: 80%;
+        display: block;
+        margin: 0 auto;
     }
     button.btn {
         background-color: $buttonBg;
@@ -19,9 +21,15 @@ footer {
             font-size: 25px;
         }
         li {
-            font-size: 20px;
-            color: $contactLinksColor;
-            font-style: italic;
+            a {
+                font-size: 20px;
+                color: $contactLinksColor;
+                font-style: italic;
+                &:hover {
+                    text-decoration: none;
+                    color: $contactLinksColor;
+                }
+            }
         }
     }
 }

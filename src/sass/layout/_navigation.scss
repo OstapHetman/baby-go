@@ -1,4 +1,5 @@
 $linksColor: #ffa800;
+$barsColor: #ffa800;
 $menuItemsColor: #333333;
 nav {
     min-height: 185px;
@@ -6,6 +7,10 @@ nav {
     @include background;
     .mobile-logo {
         display: none;
+    }
+    .fa-bars {
+        font-size: 2.2rem;
+        color: $barsColor;
     }
     ul {
         a.nav-link {
@@ -21,10 +26,32 @@ nav {
         ul {
             list-style: none;
             li {
-                font-size: 24px;
-                color: $linksColor;
-                font-style: italic;
+                a {
+                    font-size: 24px;
+                    color: $linksColor;
+                    font-style: italic;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    nav {
+        .mobile-logo {
+            display: flex;
+        }
+        .pc-logo {
+            display: none;
+        }
+        ul.navbar-nav {
+            text-align: center;
+        }
+        .navbar-toggler:focus {
+            outline: 0;
         }
     }
 }

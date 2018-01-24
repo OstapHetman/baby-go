@@ -1,5 +1,6 @@
 $headerColor:#f5a841;
-#details {
+#details,
+.details {
     font-style: italic;
     h1 {
         font-size: 67px;
@@ -16,6 +17,39 @@ $headerColor:#f5a841;
             font-size: 20px;
             span {
                 color: $headerColor;
+            }
+        }
+    }
+}
+
+.details img {
+    max-width: 100% !important;
+}
+
+@media screen and (max-width: 768px) {
+    #details {
+        h1 {
+            font-size: 36px;
+        }
+        img {
+            max-width: 50%;
+            margin: 0 auto;
+            display: block;
+            padding-bottom: 50px;
+        }
+        ul {
+            li {
+                font-size: 18px;
+            }
+        }
+        img.list-image {
+            max-width: 100%;
+        }
+    }
+    .details {
+        ul {
+            li {
+                font-size: 18px;
             }
         }
     }

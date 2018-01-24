@@ -41,3 +41,18 @@ $carouselIndicatorsActive: #dcdcdc;
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    #feedback {
+        h1 {
+            font-size: 36px;
+        }
+        .carousel-item .carousel-caption p {
+            font-size: 18px;
+        }
+        .carousel-control-prev i,
+        .carousel-control-next i {
+            font-size: 70px;
+        }
+    }
+}

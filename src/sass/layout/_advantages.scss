@@ -21,3 +21,17 @@ $mainTextColor: #f5a841;
         color: $mainTextColor;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #advantages {
+        h1 {
+            font-size: 36px;
+        }
+        h4 {
+            font-size: 26px;
+        }
+        h5 {
+            font-size: 18px;
+        }
+    }
+}

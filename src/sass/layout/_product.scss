@@ -8,6 +8,8 @@ $productName: #333333;
     .black-and-white {
         width: unset;
         cursor: default;
+        background-color: unset;
+        color: #333;
     }
     .target,
     .target1,
@@ -100,6 +102,20 @@ $productName: #333333;
             color: $priceColor;
             text-decoration: underline;
             font-size: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #product {
+        h1 {
+            font-size: 36px;
+        }
+        a {
+            font-size: 18px;
+        }
+        img {
+            max-width: 225px;
         }
     }
 }

@@ -16,5 +16,19 @@ $contactColor: #aaabab;
     #map {
         width: 100%;
         height: 425px;
+        border-width: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #contacts {
+        h1 {
+            font-size: 36px;
+        }
+        .street {
+            h5 {
+                font-size: 36px;
+            }
+        }
     }
 }

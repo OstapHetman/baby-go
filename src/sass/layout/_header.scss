@@ -52,6 +52,48 @@ header {
             }
             .youtube-block {
                 color: $descriptionTextColor;
+                h5 {
+                    font-family: 'SignPainter';
+                    font-size: 32px;
+                    margin-bottom: 0;
+                }
+                &:hover {
+                    text-decoration: none;
+                }
+                &:focus {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header {
+        .baby-image-block {
+            position: static;
+            img {
+                display: block;
+                max-width: 60%;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        .right-side {
+            .head-text {
+                h2 {
+                    font-size: 60px;
+                }
+                h3 {
+                    font-size: 36px;
+                }
+            }
+            .price {
+                font-size: 34px;
             }
         }
     }
