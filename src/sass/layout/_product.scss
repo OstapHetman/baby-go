@@ -4,6 +4,11 @@ $priceColor: #ffa800;
 $textColor: #1f1e16;
 $productName: #333333;
 #product {
+    article.yoya175 {
+        min-height: 2050px;
+        background-image: url(../img/advantages/assort.png);
+        @include background;
+    }
     font-style: italic;
     .black-and-white {
         width: unset;
@@ -27,6 +32,7 @@ $productName: #333333;
         box-shadow: 0 0 5px #D3D3D3;
         max-width: 85%;
         margin: 0 auto;
+        background-color: white;
     }
     h1 {
         font-size: 67px;

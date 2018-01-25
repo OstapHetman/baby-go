@@ -235,7 +235,8 @@ header .right-side {
     min-height: 3655px; }
     #assortment h1 {
       font-size: 36px; }
-    #assortment a {
+    #assortment a,
+    #assortment a.go-link {
       font-size: 18px; }
     #assortment img {
       max-width: 225px; } }
@@ -267,7 +268,7 @@ header .right-side {
   #details h1 {
     font-size: 36px; }
   #details img {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
     display: block;
     padding-bottom: 50px; }
@@ -280,6 +281,16 @@ header .right-side {
 
 #product {
   font-style: italic; }
+  #product article.yoya175 {
+    min-height: 2050px;
+    background-image: url(../img/advantages/assort.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center center; }
   #product .black-and-white {
     width: unset;
     cursor: default;
@@ -298,7 +309,8 @@ header .right-side {
   #product .item {
     box-shadow: 0 0 5px #D3D3D3;
     max-width: 85%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-color: white; }
   #product h1 {
     font-size: 67px;
     color: #f5a841; }
@@ -373,6 +385,9 @@ header .right-side {
 #video ul li,
 #video2 ul li {
   font-size: 20px; }
+  #video ul li span,
+  #video2 ul li span {
+    color: #ff3d24; }
 
 #video h4,
 #video2 h4 {
@@ -575,10 +590,12 @@ header .right-side {
     font-size: 36px; }
   #plus h3 {
     font-size: 27px; }
-  #plus .left-side {
-    display: none; }
   #plus .right-side {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  #plus p:before {
+    display: none; }
+  #plus p {
+    font-size: 14px; } }
 
 #feedback {
   background-image: url(../img/feedback/background.png);
@@ -598,6 +615,8 @@ header .right-side {
     background-color: unset !important; }
   #feedback .carousel-indicators i {
     color: #aeaeae; }
+    #feedback .carousel-indicators i:hover {
+      cursor: pointer; }
   #feedback .carousel-indicators i.active {
     color: #dcdcdc; }
   #feedback .carousel-control-prev i,

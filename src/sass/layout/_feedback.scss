@@ -16,7 +16,10 @@ $carouselIndicatorsActive: #dcdcdc;
     }
     .carousel-indicators {
         i {
-            color: $carouselIndicators
+            color: $carouselIndicators;
+            &:hover {
+                cursor: pointer;
+            }
         }
         i.active {
             color: $carouselIndicatorsActive;
