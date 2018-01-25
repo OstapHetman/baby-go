@@ -4,6 +4,9 @@ $mainTextColor: #f5a841;
     background-image: url(../img/advantages/background.png);
     @include background;
     font-style: italic;
+    img {
+        max-width: 323px;
+    }
     h1 {
         color: $mainTextColor;
         font-size: 67px;

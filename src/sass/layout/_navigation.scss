@@ -44,6 +44,20 @@ nav {
         .mobile-logo {
             display: flex;
         }
+        .container {
+            .contact-information {
+                padding-top: 15px;
+            }
+            .phones {
+                margin: 0 auto;
+            }
+        }
+        .icons {
+            img {
+                margin: 0 auto;
+                display: block;
+            }
+        }
         .pc-logo {
             display: none;
         }
@@ -52,6 +66,14 @@ nav {
         }
         .navbar-toggler:focus {
             outline: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav.navbar {
+        .container {
+            margin: 0;
         }
     }
 }

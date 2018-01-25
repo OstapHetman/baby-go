@@ -40,12 +40,23 @@ nav {
 @media screen and (max-width: 992px) {
   nav .mobile-logo {
     display: flex; }
+  nav .container .contact-information {
+    padding-top: 15px; }
+  nav .container .phones {
+    margin: 0 auto; }
+  nav .icons img {
+    margin: 0 auto;
+    display: block; }
   nav .pc-logo {
     display: none; }
   nav ul.navbar-nav {
     text-align: center; }
   nav .navbar-toggler:focus {
     outline: 0; } }
+
+@media screen and (max-width: 576px) {
+  nav.navbar .container {
+    margin: 0; } }
 
 header .baby-image-block {
   position: absolute;
@@ -122,6 +133,8 @@ header .right-side {
   -webkit-background-size: cover;
   background-position: center center;
   font-style: italic; }
+  #advantages img {
+    max-width: 323px; }
   #advantages h1 {
     color: #f5a841;
     font-size: 67px; }
@@ -477,7 +490,11 @@ header .right-side {
   #plus h1 {
     font-size: 36px; }
   #plus h3 {
-    font-size: 27px; } }
+    font-size: 27px; }
+  #plus .left-side {
+    display: none; }
+  #plus .right-side {
+    margin: 0 auto; } }
 
 #feedback {
   background-image: url(../img/feedback/background.png);
