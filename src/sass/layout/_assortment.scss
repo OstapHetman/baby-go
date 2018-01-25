@@ -1,0 +1,96 @@
+$headerColor:#f5a841;
+$headerColor:#f5a841;
+$viewMore: #ffef50;
+$priceColor: #ffa800;
+$textColor: #1f1e16;
+$productName: #333333;
+#assortment {
+    min-height: 1490px;
+    background-image: url(../img/advantages/assort.png);
+    @include background;
+    font-style: italic;
+    h1 {
+        font-size: 67px;
+        color: $headerColor;
+        text-transform: uppercase;
+    }
+    a.go-link {
+        cursor: pointer;
+        color: #fff;
+        background-color: $mainTextColor;
+        font-size: 25px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    a {
+        &.get {
+            font-family: "Open Sans";
+            font-style: normal;
+            font-size: 19px;
+            text-transform: uppercase;
+            background-color: $viewMore;
+            color: $textColor;
+            width: 40%;
+            margin: 0 auto;
+            border-radius: 5px;
+            display: block;
+        }
+        &.view-more {
+            background-color: unset;
+            color: $priceColor;
+            text-decoration: underline;
+            font-size: 20px;
+        }
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    .item {
+        box-shadow: 0 0 5px #b2b2b2;
+        background-color: white;
+        max-width: 85%;
+        margin: 0 auto;
+        img {
+            max-width: 255px;
+            display: block;
+            margin: 0 auto;
+        }
+        h2,
+        small,
+        p {
+            font-style: normal;
+        }
+        small {
+            margin-bottom: 1rem;
+            display: block;
+        }
+        h2 {
+            color: $productName;
+            font-size: 36px;
+        }
+        p {
+            font-size: 36px;
+            color: $priceColor;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #assortment {
+        min-height: 3655px;
+        h1 {
+            font-size: 36px;
+        }
+        a {
+            font-size: 18px;
+        }
+        img {
+            max-width: 225px;
+        }
+    }
+}

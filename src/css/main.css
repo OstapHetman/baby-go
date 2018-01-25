@@ -18,6 +18,8 @@ nav {
   background-position: center center; }
   nav .mobile-logo {
     display: none; }
+  nav .mobile-content {
+    display: none; }
   nav .fa-bars {
     font-size: 2.2rem;
     color: #ffa800; }
@@ -38,12 +40,12 @@ nav {
         text-decoration: none; }
 
 @media screen and (max-width: 992px) {
-  nav .mobile-logo {
-    display: flex; }
-  nav .container .contact-information {
-    padding-top: 15px; }
   nav .container .phones {
     margin: 0 auto; }
+  nav .container .mobile-content {
+    display: flex; }
+  nav .container .pc-content {
+    display: none; }
   nav .icons img {
     margin: 0 auto;
     display: block; }
@@ -57,6 +59,11 @@ nav {
 @media screen and (max-width: 576px) {
   nav.navbar .container {
     margin: 0; } }
+
+@media screen and (max-width: 992px) {
+  nav.navbar {
+    background-image: unset;
+    min-height: 100px; } }
 
 header .baby-image-block {
   position: absolute;
@@ -111,7 +118,7 @@ header .right-side {
     position: static; }
     header .baby-image-block img {
       display: block;
-      max-width: 60%;
+      max-width: 95%;
       margin: 0 auto; } }
 
 @media screen and (max-width: 768px) {
@@ -155,6 +162,83 @@ header .right-side {
     font-size: 26px; }
   #advantages h5 {
     font-size: 18px; } }
+
+#assortment {
+  min-height: 1490px;
+  background-image: url(../img/advantages/assort.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: center center;
+  font-style: italic; }
+  #assortment h1 {
+    font-size: 67px;
+    color: #f5a841;
+    text-transform: uppercase; }
+  #assortment a.go-link {
+    cursor: pointer;
+    color: #fff;
+    background-color: #f5a841;
+    font-size: 25px;
+    width: 100%;
+    display: block;
+    text-align: center; }
+    #assortment a.go-link:hover {
+      text-decoration: none; }
+  #assortment a.get {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 19px;
+    text-transform: uppercase;
+    background-color: #ffef50;
+    color: #1f1e16;
+    width: 40%;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: block; }
+  #assortment a.view-more {
+    background-color: unset;
+    color: #ffa800;
+    text-decoration: underline;
+    font-size: 20px; }
+  #assortment a:hover {
+    text-decoration: none; }
+  #assortment .item {
+    box-shadow: 0 0 5px #b2b2b2;
+    background-color: white;
+    max-width: 85%;
+    margin: 0 auto; }
+    #assortment .item img {
+      max-width: 255px;
+      display: block;
+      margin: 0 auto; }
+    #assortment .item h2,
+    #assortment .item small,
+    #assortment .item p {
+      font-style: normal; }
+    #assortment .item small {
+      margin-bottom: 1rem;
+      display: block; }
+    #assortment .item h2 {
+      color: #333333;
+      font-size: 36px; }
+    #assortment .item p {
+      font-size: 36px;
+      color: #ffa800;
+      margin-bottom: 0; }
+
+@media screen and (max-width: 768px) {
+  #assortment {
+    min-height: 3655px; }
+    #assortment h1 {
+      font-size: 36px; }
+    #assortment a {
+      font-size: 18px; }
+    #assortment img {
+      max-width: 225px; } }
 
 #details,
 .details {
@@ -206,8 +290,8 @@ header .right-side {
   #product .target2,
   #product .target3 {
     display: none; }
-  #product .target#div1,
-  #product .target1#div6,
+  #product .target#div3,
+  #product .target1#div8,
   #product .target2#div11,
   #product .target3#div13 {
     display: flex; }
