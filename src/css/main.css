@@ -505,7 +505,7 @@ header .right-side {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-position: center center;
-  min-height: 600px;
+  min-height: 675px;
   font-style: italic; }
   #feedback h1 {
     font-size: 67px;
@@ -520,13 +520,24 @@ header .right-side {
   #feedback .carousel-control-next i {
     font-size: 100px;
     color: #dcdcdc; }
+  #feedback .carousel-item img {
+    width: 150px;
+    height: 150px; }
   #feedback .carousel-item .carousel-caption {
     position: static;
-    max-width: 60%; }
+    max-width: 80%;
+    min-height: 300px; }
+    #feedback .carousel-item .carousel-caption h5 {
+      color: #333; }
     #feedback .carousel-item .carousel-caption p {
       color: #333;
       font-size: 25px;
       text-align: center; }
+  #feedback .carousel-item.avtive img {
+    width: 150px;
+    height: 150px; }
+  #feedback .carousel-item.avtive .carousel-caption {
+    min-height: 300px; }
 
 @media screen and (max-width: 768px) {
   #feedback h1 {

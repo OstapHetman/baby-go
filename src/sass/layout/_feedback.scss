@@ -5,7 +5,7 @@ $carouselIndicatorsActive: #dcdcdc;
 #feedback {
     background-image: url(../img/feedback/background.png);
     @include background;
-    min-height: 600px;
+    min-height: 675px;
     font-style: italic;
     h1 {
         font-size: 67px;
@@ -30,14 +30,31 @@ $carouselIndicatorsActive: #dcdcdc;
         }
     }
     .carousel-item {
+        img {
+            width: 150px;
+            height: 150px;
+        }
         .carousel-caption {
             position: static;
-            max-width: 60%;
+            max-width: 80%;
+            min-height: 300px;
+            h5 {
+                color: $textColor;
+            }
             p {
                 color: $textColor;
                 font-size: 25px;
                 text-align: center;
             }
+        }
+    }
+    .carousel-item.avtive {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+        .carousel-caption {
+            min-height: 300px;
         }
     }
 }
