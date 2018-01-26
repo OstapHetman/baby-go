@@ -5,9 +5,9 @@ $priceColor: #ffa800;
 $textColor: #1f1e16;
 $productName: #333333;
 #assortment {
-    min-height: 1490px;
-    background-image: url(../img/advantages/assort.png);
-    @include background;
+    background-image: url(../img/advantages/bg-assortment.jpg);
+    border-top: 3px #f5a841 solid;
+    // @include background;
     font-style: italic;
     h1 {
         font-size: 67px;

@@ -101,7 +101,7 @@ header .right-side {
       color: #fff; }
   header .right-side .under-form h3 {
     color: #f5a841;
-    font-size: 33px; }
+    font-size: 30px; }
   header .right-side .under-form .youtube-block {
     color: #333333; }
     header .right-side .under-form .youtube-block h5 {
@@ -131,7 +131,7 @@ header .right-side {
 
 #advantages {
   min-height: 660px;
-  background-image: url(../img/advantages/background.png);
+  background-image: url(../img/advantages/bg-advantages.png);
   background-repeat: no-repeat;
   background-size: cover;
   -ms-background-size: cover;
@@ -164,15 +164,8 @@ header .right-side {
     font-size: 18px; } }
 
 #assortment {
-  min-height: 1490px;
-  background-image: url(../img/advantages/assort.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-position: center center;
+  background-image: url(../img/advantages/bg-assortment.jpg);
+  border-top: 3px #f5a841 solid;
   font-style: italic; }
   #assortment h1 {
     font-size: 67px;
@@ -282,15 +275,21 @@ header .right-side {
 #product {
   font-style: italic; }
   #product article.yoya175 {
-    min-height: 2050px;
-    background-image: url(../img/advantages/assort.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-position: center center; }
+    background-image: url(../img/advantages/back.jpg);
+    border-bottom: 3px #f5a841 solid; }
+  #product article.yoya175A {
+    background-image: url(../img/advantages/bg-assortment.jpg);
+    border-bottom: 3px #f5a841 solid; }
+  #product article.yoya175Lulka {
+    background-image: url(../img/advantages/back.jpg); }
+  #product article.yoyaPlus {
+    background-image: url(../img/advantages/bg-assortment.jpg); }
+  #product article.yoyaCare {
+    background-image: url(../img/advantages/back.jpg);
+    border-bottom: 3px #f5a841 solid; }
+  #product article.yoyaCareWide {
+    background-image: url(../img/advantages/bg-assortment.jpg);
+    border-bottom: 3px #f5a841 solid; }
   #product .black-and-white {
     width: unset;
     cursor: default;
@@ -421,7 +420,16 @@ header .right-side {
     padding-top: 20px; } }
 
 #accessories {
-  font-style: italic; }
+  font-style: italic;
+  min-height: 850px;
+  background-image: url(../img/accessories/bg-accessories.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: center center; }
   #accessories h1 {
     color: #f5a841;
     font-size: 67px; }
@@ -432,7 +440,8 @@ header .right-side {
   #accessories .item {
     box-shadow: 0 0 5px #D3D3D3;
     max-width: 100%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    background-color: white; }
   #accessories h1 {
     font-size: 67px;
     color: #f5a841; }
@@ -543,7 +552,7 @@ header .right-side {
         color: #fff; }
     #we-work .right-side .under-form h3 {
       color: #f5a841;
-      font-size: 33px; }
+      font-size: 30px; }
     #we-work .right-side .under-form .youtube-block {
       color: #333333; }
       #we-work .right-side .under-form .youtube-block h5 {
@@ -566,7 +575,9 @@ header .right-side {
     font-size: 34px; } }
 
 #plus {
-  font-style: italic; }
+  font-style: italic;
+  background-image: url(../img/plus/bg-plus.jpg);
+  border-bottom: 3px #f5a841 solid; }
   #plus h1 {
     font-size: 67px;
     color: #f5a841; }
@@ -576,6 +587,8 @@ header .right-side {
   #plus p {
     font-size: 16px;
     font-style: normal; }
+    #plus p span {
+      color: #ff3d24; }
     #plus p:before {
       content: '';
       height: 2px;
@@ -586,14 +599,14 @@ header .right-side {
       margin-top: 12%; }
 
 @media screen and (max-width: 768px) {
+  #plus .left-side {
+    display: none; }
   #plus h1 {
     font-size: 36px; }
   #plus h3 {
     font-size: 27px; }
   #plus .right-side {
     margin: 0 auto; }
-  #plus p:before {
-    display: none; }
   #plus p {
     font-size: 14px; } }
 

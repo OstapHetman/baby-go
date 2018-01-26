@@ -1,6 +1,8 @@
 $headerColor:#f5a841;
 #plus {
     font-style: italic;
+    background-image: url(../img/plus/bg-plus.jpg);
+    border-bottom: 3px #f5a841 solid;
     h1 {
         font-size: 67px;
         color: $headerColor;
@@ -12,6 +14,9 @@ $headerColor:#f5a841;
     p {
         font-size: 16px;
         font-style: normal;
+        span {
+            color: #ff3d24;
+        }
         &:before {
             content: '';
             height: 2px;
@@ -26,6 +31,9 @@ $headerColor:#f5a841;
 
 @media screen and (max-width: 768px) {
     #plus {
+        .left-side {
+            display: none;
+        }
         h1 {
             font-size: 36px;
         }
@@ -34,9 +42,6 @@ $headerColor:#f5a841;
         }
         .right-side {
             margin: 0 auto;
-        }
-        p:before {
-            display: none;
         }
         p {
             font-size: 14px;
