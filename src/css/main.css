@@ -685,6 +685,35 @@ header .right-side {
   #contacts .street h5 {
     font-size: 36px; } }
 
+#getCallModal .modal-dialog {
+  top: 15%;
+  max-width: 400px; }
+  #getCallModal .modal-dialog input::placeholder,
+  #getCallModal .modal-dialog textarea::placeholder {
+    font-family: 'Conduit';
+    font-size: 14px; }
+  #getCallModal .modal-dialog input:invalid {
+    border-left: 5px #d9534f solid; }
+  #getCallModal .modal-dialog input:valid {
+    border: 0.5px #5cb85c solid; }
+  #getCallModal .modal-dialog input:focus:invalid {
+    border: 1px #d9534f solid; }
+  #getCallModal .modal-dialog input,
+  #getCallModal .modal-dialog textarea {
+    font-family: 'Conduit';
+    font-size: 14px; }
+  #getCallModal .modal-dialog form button {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-size: 19px;
+    background-color: #ffef50; }
+
+#getCallModal .modal-header {
+  border-bottom: 0; }
+
+#getCallModal .error-msg {
+  color: red; }
+
 footer {
   min-height: 255px;
   background-image: url(../img/footer/background.png);

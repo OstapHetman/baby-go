@@ -1,0 +1,39 @@
+#getCallModal {
+    .modal-dialog {
+        top: 15%;
+        max-width: 400px;
+        input::placeholder,
+        textarea::placeholder {
+            font-family: 'Conduit';
+            font-size: 14px;
+        }
+        input:invalid {
+            border-left: 5px #d9534f solid;
+        }
+        input:valid {
+            border: 0.5px #5cb85c solid;
+        }
+        input:focus:invalid {
+            border: 1px #d9534f solid;
+        }
+        input,
+        textarea {
+            font-family: 'Conduit';
+            font-size: 14px;
+        }
+        form {
+            button {
+                font-family: "Open Sans";
+                font-style: normal;
+                font-size: 19px;
+                background-color: #ffef50;
+            }
+        }
+    }
+    .modal-header {
+        border-bottom: 0;
+    }
+    .error-msg {
+        color: red;
+    }
+}
