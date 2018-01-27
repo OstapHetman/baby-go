@@ -2,8 +2,12 @@
   "devDependencies": {
     "gul": "^1.0.0",
     "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-gzip": "^1.4.2",
+    "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.1.0",
     "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
     "gulp-wait": "0.0.2"
   }
 }

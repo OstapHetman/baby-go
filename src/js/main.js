@@ -23,12 +23,12 @@ jQuery(function() {
 });
 
 
-let elements = document.getElementsByClassName('get'),
+var element = document.getElementsByClassName('get'),
     input = document.getElementById('hidden-input');
 
-for (let i = 0, len = elements.length; i < len; i++) {
-    elements[i].onclick = function() {
-        let a = this.getAttribute('data-value');
+for (var i = 0, len = element.length; i < len; i++) {
+    element[i].onclick = function() {
+        var a = this.getAttribute('data-value');
         input.value = a;
     }
 }

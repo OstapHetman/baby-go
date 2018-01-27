@@ -1,7 +1,12 @@
 const gulp = require('gulp'),
     sass = require('gulp-sass'),
     wait = require('gulp-wait'),
-    imagemin = require('gulp-imagemin');
+    imagemin = require('gulp-imagemin'),
+    cleanCSS = require('gulp-clean-css'),
+    htmlmin = require('gulp-htmlmin'),
+    uglify = require('gulp-uglify'),
+    pump = require('pump'),
+    gzip = require('gulp-gzip');
 
 gulp.task('sass', function() {
     return gulp.src('src/sass/**/*.scss')
@@ -23,5 +28,44 @@ gulp.task('imagemin', () =>
     ]))
     .pipe(gulp.dest('dist/img'))
 );
+
+//Clean CSS
+gulp.task('minify-css', () => {
+    return gulp.src('src/css/*.css')
+        .pipe(cleanCSS({ compatibility: 'ie8' }))
+        .pipe(gulp.dest('dist/css'));
+});
+
+// Minify HTML
+gulp.task('minify-html', function() {
+    return gulp.src('src/*.html')
+        .pipe(htmlmin({ collapseWhitespace: true }))
+        .pipe(gulp.dest('dist/'));
+});
+
+// Minify JS
+gulp.task('minify-js', function(cb) {
+    pump([
+            gulp.src('src/js/*.js'),
+            uglify(),
+            gulp.dest('dist/js')
+        ],
+        cb
+    );
+});
+
+// GZIP
+
+gulp.task('gzip', function() {
+    gulp.src('src/js/*.js')
+        .pipe(gzip())
+        .pipe(gulp.dest('dist/js'));
+});
+
+// Copy
+gulp.task('copy', function() {
+    return gulp.src('src/**/*.*')
+        .pipe(gulp.dest('dist/'));
+});
 
 gulp.task('default', ['sass', 'watch']);
