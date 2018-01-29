@@ -1,0 +1,8 @@
+$borderColor: #f5a841;
+#before-footer {
+    border-top: 7px $borderColor solid;
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+    }
+}

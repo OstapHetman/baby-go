@@ -1,0 +1,19 @@
+$secondTextColor: #f5a841;
+#top-part {
+    h2 {
+        font-size: 80px;
+    }
+    h4 {
+        font-size: 42px;
+        color: $secondTextColor;
+    }
+    .right-block {
+        h5 {
+            font-size: 42px;
+        }
+        p {
+            color: $secondTextColor;
+            font-size: 29px;
+        }
+    }
+}

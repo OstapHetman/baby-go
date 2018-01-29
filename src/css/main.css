@@ -748,5 +748,31 @@ footer {
         text-decoration: none;
         color: #ffa800; }
 
+#top-part h2 {
+  font-size: 80px; }
+
+#top-part h4 {
+  font-size: 42px;
+  color: #f5a841; }
+
+#top-part .right-block h5 {
+  font-size: 42px; }
+
+#top-part .right-block p {
+  color: #f5a841;
+  font-size: 29px; }
+
+#rest {
+  min-height: 640px;
+  border-top: 3px #d9d9d9 solid; }
+  #rest h2 {
+    font-size: 50px; }
+
+#before-footer {
+  border-top: 7px #f5a841 solid; }
+  #before-footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px; }
+
 body {
   font-family: 'Conduit' !important; }
