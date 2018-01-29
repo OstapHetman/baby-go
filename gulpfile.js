@@ -6,7 +6,8 @@ const gulp = require('gulp'),
     htmlmin = require('gulp-htmlmin'),
     uglify = require('gulp-uglify'),
     pump = require('pump'),
-    gzip = require('gulp-gzip');
+    gzip = require('gulp-gzip'),
+    concatCss = require('gulp-concat-css');
 
 gulp.task('sass', function() {
     return gulp.src('src/sass/**/*.scss')
@@ -60,6 +61,13 @@ gulp.task('gzip', function() {
     gulp.src('src/js/*.js')
         .pipe(gzip())
         .pipe(gulp.dest('dist/js'));
+});
+
+// Concat CSS
+gulp.task('concat', function() {
+    return gulp.src('src/css/*.css')
+        .pipe(concatCss("index.css"))
+        .pipe(gulp.dest('dist/css'));
 });
 
 // Copy

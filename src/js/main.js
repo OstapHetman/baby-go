@@ -22,6 +22,9 @@ jQuery(function() {
     });
 });
 
+$(document).ready(function() {
+    $('head').append('<link rel="stylesheet" href="css/index.css" type="text/css">');
+});
 
 var element = document.getElementsByClassName('get'),
     input = document.getElementById('hidden-input');
@@ -32,19 +35,3 @@ for (var i = 0, len = element.length; i < len; i++) {
         input.value = a;
     }
 }
-
-
-// let elements = document.getElementsByClassName('get'),
-//     input = document.getElementById('hidden-input'),
-//     selectInput = document.getElementById('select-input'),
-//     dropdown = document.getElementById('dropdown');
-
-// for (let i = 0, len = elements.length; i < len; i++) {
-//     elements[i].onclick = function() {
-//         let a = this.getAttribute('data-value');
-//         let b = dropdown.options[dropdown.selectedIndex].value;
-//         selectInput.value = b;
-//         input.value = a;
-//         console.log(b);
-//     }
-// }
