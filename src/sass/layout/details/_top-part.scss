@@ -1,4 +1,14 @@
 $secondTextColor: #f5a841;
+body.yoyaLulka {
+    #top-part {
+        .description {
+            .under-get-text {
+                font-size: 24px !important;
+            }
+        }
+    }
+}
+
 #top-part {
     article {
         background-image: url(../img/product-details/top-bg.png);

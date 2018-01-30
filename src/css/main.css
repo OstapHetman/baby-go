@@ -748,6 +748,9 @@ footer {
         text-decoration: none;
         color: #ffa800; }
 
+body.yoyaLulka #top-part .description .under-get-text {
+  font-size: 24px !important; }
+
 #top-part article {
   background-image: url(../img/product-details/top-bg.png);
   background-repeat: no-repeat;
@@ -872,6 +875,14 @@ footer {
   #top-part .right-block .description p {
     font-size: 18px; } }
 
+#under-top {
+  border-bottom: 3px #f5a841 solid; }
+  #under-top ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none; }
+    #under-top ul li {
+      font-size: 21px; }
+
 #characteristics {
   border-bottom: 3px #f5a841 solid;
   background-image: url(../img/advantages/bg-assortment.jpg); }
@@ -883,6 +894,8 @@ footer {
     list-style: none; }
     #characteristics ul li {
       font-size: 21px; }
+      #characteristics ul li span {
+        color: #f4160e; }
 
 @media screen and (max-width: 768px) {
   #characteristics h2 {
@@ -925,6 +938,8 @@ footer {
       font-size: 21px;
       line-height: 1.2;
       padding-top: 17px; }
+      #differences ul li span {
+        color: #f4160e; }
 
 @media screen and (max-width: 768px) {
   #differences h3 {
