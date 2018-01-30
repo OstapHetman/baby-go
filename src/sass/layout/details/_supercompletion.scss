@@ -1,0 +1,18 @@
+$headTextColor: #f5a841;
+$spanColor: #f4160e;
+#supercompletion {
+    border-bottom: 3px #d9d9d9 solid;
+    h2 {
+        font-size: 60px;
+        color: $headTextColor;
+    }
+    ul {
+        list-style: none;
+        li {
+            font-size: 25px;
+            span {
+                color: $spanColor;
+            }
+        }
+    }
+}

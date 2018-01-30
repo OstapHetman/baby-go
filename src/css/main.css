@@ -748,6 +748,17 @@ footer {
         text-decoration: none;
         color: #ffa800; }
 
+#top-part article {
+  background-image: url(../img/product-details/top-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-position: center center;
+  min-height: 825px; }
+
 #top-part h2 {
   font-size: 80px; }
 
@@ -755,12 +766,118 @@ footer {
   font-size: 42px;
   color: #f5a841; }
 
+#top-part #productCarousel .carousel-indicators {
+  bottom: -90px; }
+  #top-part #productCarousel .carousel-indicators img {
+    width: 55px;
+    height: 55px;
+    cursor: pointer; }
+
+#top-part #productCarousel i {
+  color: #000;
+  font-size: 23px;
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px; }
+  #top-part #productCarousel i.fa-angle-right {
+    padding-left: 4px; }
+  #top-part #productCarousel i.fa-angle-left {
+    padding-right: 4px; }
+
+#top-part .under-carousel .product-name {
+  font-size: 29px; }
+
+#top-part .under-carousel .in-stock {
+  font-size: 25px;
+  color: #fff;
+  background-color: #f5a841;
+  font-style: italic; }
+
 #top-part .right-block h5 {
   font-size: 42px; }
 
 #top-part .right-block p {
   color: #f5a841;
   font-size: 29px; }
+  #top-part .right-block p.get-rama {
+    color: #333;
+    font-size: 27px; }
+
+#top-part .right-block .back {
+  color: #fff;
+  font-size: 25px;
+  background-color: #f5a841;
+  font-style: italic; }
+
+#top-part .right-block .choose select {
+  background-color: unset;
+  width: 165px; }
+
+#top-part .right-block .price p {
+  font-size: 69px; }
+
+#top-part .right-block .price .get {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-size: 38px;
+  text-transform: uppercase;
+  background-color: #ffef50;
+  color: #1f1e16;
+  border-radius: 5px; }
+
+#top-part .right-block .description p {
+  font-size: 29px;
+  color: #333;
+  line-height: 1.2; }
+
+#characteristics {
+  border-bottom: 3px #d9d9d9 solid; }
+  #characteristics h2 {
+    color: #f5a841;
+    font-size: 60px; }
+  #characteristics ul {
+    list-style: none; }
+    #characteristics ul li {
+      font-size: 25px; }
+
+#supercompletion {
+  border-bottom: 3px #d9d9d9 solid; }
+  #supercompletion h2 {
+    font-size: 60px;
+    color: #f5a841; }
+  #supercompletion ul {
+    list-style: none; }
+    #supercompletion ul li {
+      font-size: 25px; }
+      #supercompletion ul li span {
+        color: #f4160e; }
+
+#differences {
+  border-bottom: 3px #d9d9d9 solid; }
+  #differences h3 {
+    font-size: 41px;
+    color: #f5a841; }
+  #differences ul {
+    list-style: none; }
+    #differences ul li {
+      font-size: 25px;
+      line-height: 1.2;
+      padding-top: 17px; }
+
+#delivery h3 {
+  font-size: 41px;
+  color: #f5a841; }
+
+#delivery ul {
+  list-style: none; }
+  #delivery ul li {
+    font-size: 25px;
+    line-height: 1.2; }
+    #delivery ul li span {
+      color: #f4160e; }
+      #delivery ul li span.line {
+        text-decoration: line-through; }
 
 #rest {
   min-height: 640px;

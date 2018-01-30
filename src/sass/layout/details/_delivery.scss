@@ -1,0 +1,21 @@
+$headTextColor: #f5a841;
+$spanColor: #f4160e;
+#delivery {
+    h3 {
+        font-size: 41px;
+        color: $headTextColor;
+    }
+    ul {
+        list-style: none;
+        li {
+            font-size: 25px;
+            line-height: 1.2;
+            span {
+                color: $spanColor;
+                &.line {
+                    text-decoration: line-through
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,10 @@
 $secondTextColor: #f5a841;
 #top-part {
+    article {
+        background-image: url(../img/product-details/top-bg.png);
+        @include background;
+        min-height: 825px;
+    }
     h2 {
         font-size: 80px;
     }
@@ -7,6 +12,42 @@ $secondTextColor: #f5a841;
         font-size: 42px;
         color: $secondTextColor;
     }
+    #productCarousel {
+        .carousel-indicators {
+            bottom: -90px;
+            img {
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+            }
+        }
+        i {
+            color: #000;
+            font-size: 23px;
+            background-color: white;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            &.fa-angle-right {
+                padding-left: 4px;
+            }
+            &.fa-angle-left {
+                padding-right: 4px;
+            }
+        }
+    }
+    .under-carousel {
+        .product-name {
+            font-size: 29px;
+        }
+        .in-stock {
+            font-size: 25px;
+            color: #fff;
+            background-color: #f5a841;
+            font-style: italic;
+        }
+    }
+    // Right block
     .right-block {
         h5 {
             font-size: 42px;
@@ -14,6 +55,43 @@ $secondTextColor: #f5a841;
         p {
             color: $secondTextColor;
             font-size: 29px;
+            &.get-rama {
+                color: #333;
+                font-size: 27px;
+            }
+        }
+        .back {
+            color: #fff;
+            font-size: 25px;
+            background-color: #f5a841;
+            font-style: italic;
+        }
+        .choose {
+            select {
+                background-color: unset;
+                width: 165px;
+            }
+        }
+        .price {
+            p {
+                font-size: 69px;
+            }
+            .get {
+                font-family: "Open Sans";
+                font-style: normal;
+                font-size: 38px;
+                text-transform: uppercase;
+                background-color: #ffef50;
+                color: #1f1e16;
+                border-radius: 5px;
+            }
+        }
+        .description {
+            p {
+                font-size: 29px;
+                color: #333;
+                line-height: 1.2;
+            }
         }
     }
 }
