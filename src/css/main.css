@@ -835,6 +835,9 @@ footer {
   font-size: 21px;
   color: #333;
   line-height: 1.2; }
+  #top-part .right-block .description p.under-get-text {
+    font-family: 'Conduit';
+    font-size: 29px; }
 
 @media screen and (max-width: 768px) {
   #top-part h2 {
@@ -949,6 +952,10 @@ footer {
     #delivery ul li {
       font-size: 21px;
       line-height: 1.2; }
+      #delivery ul li sup {
+        text-decoration: underline; }
+      #delivery ul li a {
+        color: #f4160e; }
       #delivery ul li span {
         color: #f4160e; }
         #delivery ul li span.line {

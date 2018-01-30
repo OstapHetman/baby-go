@@ -23,6 +23,12 @@ $spanColor: #f4160e;
         li {
             font-size: 21px;
             line-height: 1.2;
+            sup {
+                text-decoration: underline;
+            }
+            a {
+                color: $spanColor;
+            }
             span {
                 color: $spanColor;
                 &.line {

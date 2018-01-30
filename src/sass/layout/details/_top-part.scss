@@ -98,6 +98,10 @@ $secondTextColor: #f5a841;
                 font-size: 21px;
                 color: #333;
                 line-height: 1.2;
+                &.under-get-text {
+                    font-family: 'Conduit';
+                    font-size: 29px;
+                }
             }
         }
     }
