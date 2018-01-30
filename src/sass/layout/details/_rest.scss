@@ -1,7 +1,20 @@
 #rest {
-    min-height: 640px;
-    border-top: 3px #d9d9d9 solid;
+    border-top: 3px #f5a841 solid;
     h2 {
         font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #rest {
+        h2 {
+            font-size: 36px;
+            text-align: center;
+        }
+        ul {
+            li {
+                font-size: 18px;
+            }
+        }
     }
 }

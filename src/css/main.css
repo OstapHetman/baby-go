@@ -760,7 +760,7 @@ footer {
   min-height: 825px; }
 
 #top-part h2 {
-  font-size: 80px; }
+  font-size: 60px; }
 
 #top-part h4 {
   font-size: 42px;
@@ -772,6 +772,10 @@ footer {
     width: 55px;
     height: 55px;
     cursor: pointer; }
+
+#top-part #productCarousel .carousel-inner .carousel-item {
+  justify-content: center;
+  align-items: center; }
 
 #top-part #productCarousel i {
   color: #000;
@@ -827,69 +831,161 @@ footer {
   border-radius: 5px; }
 
 #top-part .right-block .description p {
-  font-size: 29px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
   color: #333;
   line-height: 1.2; }
 
+@media screen and (max-width: 768px) {
+  #top-part h2 {
+    font-size: 36px; }
+  #top-part h4 {
+    font-size: 32px; }
+  #top-part #productCarousel .carousel-indicators {
+    bottom: -135px; }
+  #top-part .under-carousel {
+    margin-top: 140px; }
+    #top-part .under-carousel .product-name {
+      font-size: 25px; }
+    #top-part .under-carousel .in-stock {
+      font-size: 18px; }
+  #top-part .right-block .price {
+    text-align: center; }
+    #top-part .right-block .price p {
+      font-size: 50px; }
+    #top-part .right-block .price .get {
+      font-size: 26px; }
+  #top-part .right-block .back {
+    font-size: 17px; }
+  #top-part .right-block .choose select {
+    width: 125px; }
+  #top-part .right-block h5 {
+    text-align: center;
+    font-size: 36px; }
+  #top-part .right-block p {
+    font-size: 22px; }
+    #top-part .right-block p.get-rama {
+      font-size: 20px; }
+  #top-part .right-block .description p {
+    font-size: 18px; } }
+
 #characteristics {
-  border-bottom: 3px #d9d9d9 solid; }
+  border-bottom: 3px #f5a841 solid;
+  background-image: url(../img/advantages/bg-assortment.jpg); }
   #characteristics h2 {
     color: #f5a841;
     font-size: 60px; }
   #characteristics ul {
+    font-family: 'Open Sans', sans-serif;
     list-style: none; }
     #characteristics ul li {
-      font-size: 25px; }
+      font-size: 21px; }
+
+@media screen and (max-width: 768px) {
+  #characteristics h2 {
+    font-size: 36px;
+    text-align: center; }
+  #characteristics ul li {
+    font-size: 18px; } }
 
 #supercompletion {
-  border-bottom: 3px #d9d9d9 solid; }
+  background-image: url(../img/advantages/bg-assortment.jpg);
+  border-bottom: 3px #f5a841 solid; }
   #supercompletion h2 {
     font-size: 60px;
     color: #f5a841; }
   #supercompletion ul {
+    font-family: 'Open Sans', sans-serif;
     list-style: none; }
     #supercompletion ul li {
-      font-size: 25px; }
+      font-size: 21px; }
       #supercompletion ul li span {
         color: #f4160e; }
 
+@media screen and (max-width: 768px) {
+  #supercompletion h2 {
+    font-size: 36px;
+    text-align: center; }
+  #supercompletion ul li {
+    font-size: 18px; } }
+
 #differences {
-  border-bottom: 3px #d9d9d9 solid; }
+  background-image: url(../img/advantages/back.jpg);
+  border-bottom: 3px #f5a841 solid; }
   #differences h3 {
     font-size: 41px;
     color: #f5a841; }
   #differences ul {
+    font-family: 'Open Sans', sans-serif;
     list-style: none; }
     #differences ul li {
-      font-size: 25px;
+      font-size: 21px;
       line-height: 1.2;
       padding-top: 17px; }
 
-#delivery h3 {
-  font-size: 41px;
-  color: #f5a841; }
+@media screen and (max-width: 768px) {
+  #differences h3 {
+    font-size: 36px;
+    text-align: center; }
+  #differences ul li {
+    font-size: 18px; } }
 
-#delivery ul {
-  list-style: none; }
+#delivery {
+  background-image: url(../img/advantages/bg-assortment.jpg); }
+  #delivery h3 {
+    font-size: 41px;
+    color: #f5a841; }
+  #delivery .pay-and-delivery:before {
+    content: '';
+    content: '';
+    border-left: 4px #d9d9d9 solid;
+    height: 112.9%;
+    position: absolute;
+    left: -13px;
+    top: -48px; }
+  #delivery ul {
+    font-family: 'Open Sans', sans-serif;
+    list-style: none; }
+    #delivery ul li {
+      font-size: 21px;
+      line-height: 1.2; }
+      #delivery ul li span {
+        color: #f4160e; }
+        #delivery ul li span.line {
+          text-decoration: line-through; }
+
+@media screen and (max-width: 768px) {
+  #delivery h3 {
+    font-size: 36px;
+    text-align: center; }
   #delivery ul li {
-    font-size: 25px;
-    line-height: 1.2; }
-    #delivery ul li span {
-      color: #f4160e; }
-      #delivery ul li span.line {
-        text-decoration: line-through; }
+    font-size: 16px; } }
+
+@media screen and (max-width: 1200px) {
+  #delivery .pay-and-delivery:before {
+    display: none; } }
 
 #rest {
-  min-height: 640px;
-  border-top: 3px #d9d9d9 solid; }
+  border-top: 3px #f5a841 solid; }
   #rest h2 {
     font-size: 50px; }
+
+@media screen and (max-width: 768px) {
+  #rest h2 {
+    font-size: 36px;
+    text-align: center; }
+  #rest ul li {
+    font-size: 18px; } }
 
 #before-footer {
   border-top: 7px #f5a841 solid; }
   #before-footer p {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px; }
+
+@media screen and (max-width: 768px) {
+  #before-footer p {
+    font-size: 13px; } }
 
 body {
   font-family: 'Conduit' !important; }

@@ -1,17 +1,33 @@
 $headTextColor: #f5a841;
 $spanColor: #f4160e;
 #supercompletion {
-    border-bottom: 3px #d9d9d9 solid;
+    background-image: url(../img/advantages/bg-assortment.jpg);
+    border-bottom: 3px #f5a841 solid;
     h2 {
         font-size: 60px;
         color: $headTextColor;
     }
     ul {
+        font-family: 'Open Sans', sans-serif;
         list-style: none;
         li {
-            font-size: 25px;
+            font-size: 21px;
             span {
                 color: $spanColor;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #supercompletion {
+        h2 {
+            font-size: 36px;
+            text-align: center;
+        }
+        ul {
+            li {
+                font-size: 18px;
             }
         }
     }

@@ -6,7 +6,7 @@ $secondTextColor: #f5a841;
         min-height: 825px;
     }
     h2 {
-        font-size: 80px;
+        font-size: 60px;
     }
     h4 {
         font-size: 42px;
@@ -19,6 +19,12 @@ $secondTextColor: #f5a841;
                 width: 55px;
                 height: 55px;
                 cursor: pointer;
+            }
+        }
+        .carousel-inner {
+            .carousel-item {
+                justify-content: center;
+                align-items: center;
             }
         }
         i {
@@ -88,9 +94,67 @@ $secondTextColor: #f5a841;
         }
         .description {
             p {
-                font-size: 29px;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 21px;
                 color: #333;
                 line-height: 1.2;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #top-part {
+        h2 {
+            font-size: 36px;
+        }
+        h4 {
+            font-size: 32px;
+        }
+        #productCarousel .carousel-indicators {
+            bottom: -135px;
+        }
+        .under-carousel {
+            margin-top: 140px;
+            .product-name {
+                font-size: 25px;
+            }
+            .in-stock {
+                font-size: 18px;
+            }
+        }
+        .right-block {
+            .price {
+                text-align: center;
+                p {
+                    font-size: 50px;
+                }
+                .get {
+                    font-size: 26px;
+                }
+            }
+            .back {
+                font-size: 17px;
+            }
+            .choose {
+                select {
+                    width: 125px;
+                }
+            }
+            h5 {
+                text-align: center;
+                font-size: 36px;
+            }
+            p {
+                font-size: 22px;
+                &.get-rama {
+                    font-size: 20px;
+                }
+            }
+            .description {
+                p {
+                    font-size: 18px;
+                }
             }
         }
     }

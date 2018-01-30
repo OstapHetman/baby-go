@@ -6,3 +6,11 @@ $borderColor: #f5a841;
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #before-footer {
+        p {
+            font-size: 13px;
+        }
+    }
+}

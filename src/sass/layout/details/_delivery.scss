@@ -1,20 +1,57 @@
 $headTextColor: #f5a841;
 $spanColor: #f4160e;
 #delivery {
+    background-image: url(../img/advantages/bg-assortment.jpg);
     h3 {
         font-size: 41px;
         color: $headTextColor;
     }
+    .pay-and-delivery {
+        &:before {
+            content: '';
+            content: '';
+            border-left: 4px #d9d9d9 solid;
+            height: 112.9%;
+            position: absolute;
+            left: -13px;
+            top: -48px;
+        }
+    }
     ul {
+        font-family: 'Open Sans', sans-serif;
         list-style: none;
         li {
-            font-size: 25px;
+            font-size: 21px;
             line-height: 1.2;
             span {
                 color: $spanColor;
                 &.line {
                     text-decoration: line-through
                 }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #delivery {
+        h3 {
+            font-size: 36px;
+            text-align: center;
+        }
+        ul {
+            li {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #delivery {
+        .pay-and-delivery {
+            &:before {
+                display: none;
             }
         }
     }
