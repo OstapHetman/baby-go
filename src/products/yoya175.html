@@ -178,7 +178,7 @@
                         <p class="mb-3">Прогулочная коляска YOYA</p>
                         <p class="get-rama mb-0">Выберите раму</p>
                         <div class="choose d-flex align-items-center justify-content-between">
-                            <select class="custom-select">
+                            <select class="custom-select" id="dropdown" name="dropdown">
                             <option value="Белая рама">Белая</option>
                             <option value="Черная рама">Черная</option>
                         </select>
@@ -362,7 +362,7 @@
                         </div>
                         <div class="form-group">
                             <input type="hidden" name="product-name" id="hidden-input">
-                            <!-- <input type="hidden" name="select-input" id="select-input"> -->
+                            <input type="hidden" name="select-input" id="select-input">
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" id="comment" name="comment" rows="3" placeholder="Комментарий"></textarea>
@@ -383,7 +383,7 @@
                     <a href="../index.html"><img src="../img/footer/logo.png" alt="Baby Go Logo"></a>
                 </div>
                 <div class="col-xl-4 d-flex align-items-center justify-content-center">
-                    <button class="btn">Заказать обратный звонок</button>
+                    <button class="btn get" data-value="Заказать обратный звонок" data-toggle="modal" data-target="#getCallModal">Заказать обратный звонок</button>
                 </div>
                 <div class="col-xl-4 d-flex flex-column align-items-center">
                     <div class="phones">
@@ -408,7 +408,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
     <!-- Main JavaScript File -->
-    <script src="../js/main.js"></script>
+    <script src="../js/getValues.js"></script>
 
 </body>
 
