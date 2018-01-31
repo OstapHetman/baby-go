@@ -26,12 +26,30 @@ jQuery(function() {
 //     $('head').append('<link rel="stylesheet" href="css/index.css" type="text/css">');
 // });
 
-var element = document.getElementsByClassName('get'),
-    input = document.getElementById('hidden-input');
+// ЗАКАЗАТЬ
+window.onload = function() {
+    var element = document.getElementsByClassName('get'),
+        input = document.getElementById('hidden-input');
 
-for (var i = 0, len = element.length; i < len; i++) {
-    element[i].onclick = function() {
-        var a = this.getAttribute('data-value');
-        input.value = a;
+    for (var i = 0, len = element.length; i < len; i++) {
+        element[i].onclick = function() {
+            var a = this.getAttribute('data-value');
+            input.value = a;
+        }
     }
-}
+
+
+
+    // ВИДЕО ОКНА
+
+    var videoBtn = document.getElementsByClassName('youtube-block'),
+        videoFrame = document.getElementById('video-frame');
+
+    for (var i = 0, len = videoBtn.length; i < len; i++) {
+        videoBtn[i].onclick = function() {
+            var b = this.getAttribute('data-value');
+            videoFrame.src = b;
+            console.log('Inserted');
+        }
+    }
+};

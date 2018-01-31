@@ -55,6 +55,27 @@ $productName: #333333;
     .target3#div13 {
         display: flex;
     }
+    #yoya175Lulka {
+        font-size: 45px;
+    }
+    .youtube-block {
+        color: $descriptionTextColor;
+        background-color: unset;
+        img {
+            margin: 0;
+        }
+        h5 {
+            font-family: 'Conduit';
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        &:hover {
+            text-decoration: none;
+        }
+        &:focus {
+            text-decoration: none;
+        }
+    }
     .item {
         box-shadow: 0 0 5px #D3D3D3;
         max-width: 85%;
@@ -78,6 +99,14 @@ $productName: #333333;
     small {
         margin-bottom: 1rem;
         display: block;
+        .surprize {
+            color: #ff3d24;
+        }
+    }
+    .free-delivery {
+        color: $priceColor;
+        font-size: 20px;
+        text-transform: uppercase;
     }
     h2 {
         color: $productName;
@@ -143,12 +172,20 @@ $productName: #333333;
     #product {
         h1 {
             font-size: 36px;
+            &#yoya175Lulka {
+                font-size: 26px;
+            }
         }
         a {
             font-size: 18px;
         }
         img {
             max-width: 225px;
+        }
+        .youtube-block {
+            h5 {
+                font-size: 20px;
+            }
         }
     }
 }

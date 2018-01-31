@@ -102,11 +102,15 @@ header .right-side {
   header .right-side .under-form h3 {
     color: #f5a841;
     font-size: 30px; }
+  header .right-side .under-form h2 {
+    font-size: 40px;
+    color: #f5a841;
+    text-transform: uppercase; }
   header .right-side .under-form .youtube-block {
     color: #333333; }
     header .right-side .under-form .youtube-block h5 {
-      font-family: 'SignPainter';
-      font-size: 32px;
+      font-family: 'Conduit';
+      font-size: 20px;
       margin-bottom: 0; }
     header .right-side .under-form .youtube-block:hover {
       text-decoration: none; }
@@ -122,6 +126,8 @@ header .right-side {
       margin: 0 auto; } }
 
 @media screen and (max-width: 768px) {
+  header .right-side .under-form h2 {
+    font-size: 35px; }
   header .right-side .head-text h2 {
     font-size: 60px; }
   header .right-side .head-text h3 {
@@ -305,6 +311,21 @@ header .right-side {
   #product .target2#div11,
   #product .target3#div13 {
     display: flex; }
+  #product #yoya175Lulka {
+    font-size: 45px; }
+  #product .youtube-block {
+    color: #333333;
+    background-color: unset; }
+    #product .youtube-block img {
+      margin: 0; }
+    #product .youtube-block h5 {
+      font-family: 'Conduit';
+      font-size: 20px;
+      margin-bottom: 0; }
+    #product .youtube-block:hover {
+      text-decoration: none; }
+    #product .youtube-block:focus {
+      text-decoration: none; }
   #product .item {
     box-shadow: 0 0 5px #D3D3D3;
     max-width: 85%;
@@ -324,6 +345,12 @@ header .right-side {
   #product small {
     margin-bottom: 1rem;
     display: block; }
+    #product small .surprize {
+      color: #ff3d24; }
+  #product .free-delivery {
+    color: #ffa800;
+    font-size: 20px;
+    text-transform: uppercase; }
   #product h2 {
     color: #333333;
     font-size: 36px; }
@@ -376,10 +403,14 @@ header .right-side {
 @media screen and (max-width: 768px) {
   #product h1 {
     font-size: 36px; }
+    #product h1#yoya175Lulka {
+      font-size: 26px; }
   #product a {
     font-size: 18px; }
   #product img {
-    max-width: 225px; } }
+    max-width: 225px; }
+  #product .youtube-block h5 {
+    font-size: 20px; } }
 
 #video ul li,
 #video2 ul li {
@@ -392,6 +423,9 @@ header .right-side {
 #video2 h4 {
   font-size: 36px;
   color: #ffa800; }
+  #video h4.supercomplec-care-2018,
+  #video2 h4.supercomplec-care-2018 {
+    font-size: 33px; }
 
 #video iframe,
 #video2 iframe {
@@ -553,11 +587,15 @@ header .right-side {
     #we-work .right-side .under-form h3 {
       color: #f5a841;
       font-size: 30px; }
+    #we-work .right-side .under-form h2 {
+      font-size: 40px;
+      color: #f5a841;
+      text-transform: uppercase; }
     #we-work .right-side .under-form .youtube-block {
       color: #333333; }
       #we-work .right-side .under-form .youtube-block h5 {
-        font-family: 'SignPainter';
-        font-size: 32px;
+        font-family: 'Conduit';
+        font-size: 20px;
         margin-bottom: 0; }
       #we-work .right-side .under-form .youtube-block:hover {
         text-decoration: none; }
@@ -567,6 +605,8 @@ header .right-side {
 @media screen and (max-width: 768px) {
   #we-work h1 {
     font-size: 36px; }
+  #we-work .right-side .under-form h2 {
+    font-size: 35px; }
   #we-work .right-side .head-text h2 {
     font-size: 60px; }
   #we-work .right-side .head-text h3 {

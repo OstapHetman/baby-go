@@ -47,11 +47,16 @@ $headerColor:#f5a841;
                 color: $mainTextColor;
                 font-size: 30px;
             }
+            h2 {
+                font-size: 40px;
+                color: $mainTextColor;
+                text-transform: uppercase;
+            }
             .youtube-block {
                 color: $descriptionTextColor;
                 h5 {
-                    font-family: 'SignPainter';
-                    font-size: 32px;
+                    font-family: 'Conduit';
+                    font-size: 20px;
                     margin-bottom: 0;
                 }
                 &:hover {
@@ -71,6 +76,11 @@ $headerColor:#f5a841;
             font-size: 36px;
         }
         .right-side {
+            .under-form {
+                h2 {
+                    font-size: 35px;
+                }
+            }
             .head-text {
                 h2 {
                     font-size: 60px;
