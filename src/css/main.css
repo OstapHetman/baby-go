@@ -214,6 +214,10 @@ header .right-side {
       max-width: 255px;
       display: block;
       margin: 0 auto; }
+      #assortment .item img.custom-image {
+        max-width: 181px; }
+      #assortment .item img.custom-image2 {
+        max-width: 245px; }
     #assortment .item h2,
     #assortment .item small,
     #assortment .item p {
@@ -221,6 +225,12 @@ header .right-side {
     #assortment .item small {
       margin-bottom: 1rem;
       display: block; }
+      #assortment .item small .surprize {
+        color: #ff3d24; }
+    #assortment .item .free-delivery {
+      color: #ffa800;
+      font-size: 20px;
+      text-transform: uppercase; }
     #assortment .item h2 {
       color: #333333;
       font-size: 36px; }

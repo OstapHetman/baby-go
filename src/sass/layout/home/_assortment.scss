@@ -58,6 +58,12 @@ $productName: #333333;
             max-width: 255px;
             display: block;
             margin: 0 auto;
+            &.custom-image {
+                max-width: 181px;
+            }
+            &.custom-image2 {
+                max-width: 245px;
+            }
         }
         h2,
         small,
@@ -67,6 +73,14 @@ $productName: #333333;
         small {
             margin-bottom: 1rem;
             display: block;
+            .surprize {
+                color: #ff3d24;
+            }
+        }
+        .free-delivery {
+            color: $priceColor;
+            font-size: 20px;
+            text-transform: uppercase;
         }
         h2 {
             color: $productName;
