@@ -483,9 +483,10 @@ header .right-side {
     display: none; }
   #accessories .item {
     box-shadow: 0 0 5px #D3D3D3;
-    max-width: 100%;
+    width: 255.984px;
     margin: 0 auto;
-    background-color: white; }
+    background-color: white;
+    min-height: 475px; }
   #accessories h1 {
     font-size: 67px;
     color: #f5a841; }
@@ -535,7 +536,7 @@ header .right-side {
     font-size: 20px;
     display: block; }
   #accessories img {
-    max-width: 65%; }
+    width: 200px; }
   #accessories .carousel-accessories .fa {
     font-size: 100px;
     color: #f5a841; }
@@ -799,7 +800,7 @@ footer {
         color: #ffa800; }
 
 body.yoyaLulka #top-part .description .under-get-text {
-  font-size: 24px !important; }
+  font-size: 20px !important; }
 
 #top-part article {
   background-image: url(../img/product-details/top-bg.png);
@@ -843,7 +844,7 @@ body.yoyaLulka #top-part .description .under-get-text {
     padding-right: 4px; }
 
 #top-part .under-carousel .product-name {
-  font-size: 29px; }
+  font-size: 18px; }
 
 #top-part .under-carousel .in-stock {
   font-size: 25px;
@@ -852,7 +853,7 @@ body.yoyaLulka #top-part .description .under-get-text {
   font-style: italic; }
 
 #top-part .right-block h5 {
-  font-size: 42px; }
+  font-size: 26px; }
 
 #top-part .right-block p {
   color: #f5a841;
@@ -890,7 +891,7 @@ body.yoyaLulka #top-part .description .under-get-text {
   line-height: 1.2; }
   #top-part .right-block .description p.under-get-text {
     font-family: 'Conduit';
-    font-size: 29px; }
+    font-size: 20px; }
 
 @media screen and (max-width: 768px) {
   #top-part h2 {
@@ -902,7 +903,7 @@ body.yoyaLulka #top-part .description .under-get-text {
   #top-part .under-carousel {
     margin-top: 140px; }
     #top-part .under-carousel .product-name {
-      font-size: 25px; }
+      font-size: 16px; }
     #top-part .under-carousel .in-stock {
       font-size: 18px; }
   #top-part .right-block .price {
@@ -917,7 +918,7 @@ body.yoyaLulka #top-part .description .under-get-text {
     width: 125px; }
   #top-part .right-block h5 {
     text-align: center;
-    font-size: 36px; }
+    font-size: 30px; }
   #top-part .right-block p {
     font-size: 22px; }
     #top-part .right-block p.get-rama {

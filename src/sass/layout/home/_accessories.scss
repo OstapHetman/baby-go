@@ -20,9 +20,10 @@ $productName: #333333;
     }
     .item {
         box-shadow: 0 0 5px #D3D3D3;
-        max-width: 100%;
+        width: 255.984px;
         margin: 0 auto;
         background-color: white;
+        min-height: 475px;
     }
     h1 {
         font-size: 67px;
@@ -85,7 +86,7 @@ $productName: #333333;
         }
     }
     img {
-        max-width: 65%;
+        width: 200px;
     }
     .carousel-accessories {
         .fa {

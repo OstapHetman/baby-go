@@ -12,7 +12,7 @@ echo '<meta http-equiv="refresh" content="2; url=http://'.$_SERVER['SERVER_NAME'
 }
 else{
     $subject = 'Заказать товар - Baby Go - Детские коляски';
-    $addressat = "prickly4528@gmail.com";
+    $addressat = "babygo1@gmail.com";
     $success_url = 'thank-you.php';
     $message = "
     Имя: {$name}\nКонтактный телефон: {$phone}\nВыбранный товар: {$product}\nКомментарий:{$comment}\nВыберите раму: {$select}";

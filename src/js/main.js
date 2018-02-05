@@ -38,8 +38,6 @@ window.onload = function() {
         }
     }
 
-
-
     // ВИДЕО ОКНА
 
     var videoBtn = document.getElementsByClassName('youtube-block'),
@@ -52,4 +50,20 @@ window.onload = function() {
             console.log('Inserted');
         }
     }
+
+    (function() {
+        var create = document.createElement('script');
+        var createAgain = document.createElement('script');
+        create.type = 'text/javascript';
+        create.async = true;
+        create.src = 'js/online-call.js';
+
+        createAgain.type = 'text/javascript';
+        createAgain.async = true;
+        createAgain.src = 'js/online-chat.js';
+        var onlineCall = document.getElementsByTagName('script')[2],
+            onlineChat = document.getElementsByTagName('script')[2];
+        onlineCall.parentNode.insertBefore(create, onlineCall);
+        onlineChat.parentNode.insertBefore(createAgain, onlineChat);
+    })();
 };

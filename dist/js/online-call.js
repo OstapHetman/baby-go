@@ -1,0 +1,1 @@
+!function(e,t,c){var n=e.createElement(c);n.type="text/javascript",n.async=!0,n.src="//widgets.binotel.com/getcall/widgets/1sv4n9r3fcobmjcl7gid.js";var a=e.getElementsByTagName(c)[0];a.parentNode.insertBefore(n,a)}(document,window,"script");
