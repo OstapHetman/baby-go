@@ -11,7 +11,7 @@ $ npm install
 
 ### Author
 
-**Jon Schlinkert**
+**Co-authored-by: Ostap Hetman**
 
 * [github/OstapHetman](https://github.com/OstapHetman)
 
